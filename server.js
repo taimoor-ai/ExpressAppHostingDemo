@@ -6,7 +6,7 @@ app.get('/', (req, res) => {
     res.send('Hello, World!');
 });
 app.get('/myApi', (req, res) => {
-    res.send('Hello, World!');
+    res.send('Hello, World from my Api!');
 });
 
 app.listen(PORT, () => {
